@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="/public/assets/Healthy_DFA.png" alt="Project_logo" />
-  <img src="/public/assets/poster_DFA.png" alt="Poster" />
+  <img src="/public/assets/Healthy_DFA.png" alt="Project_logo" width="300" />
+  <br>
+  <img src="/public/assets/poster_DFA.png" alt="Poster" width="300" />
 </p>
 # Getting Started with Create React App
 
