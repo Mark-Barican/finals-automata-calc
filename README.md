@@ -104,6 +104,8 @@ The `categorizeBMI` function is called after the BMI is calculated. The returned
   <img src="/public/assets/code_imp_2.png" alt="Carbon_imp_2" width="400" />
 </p>
 
+---
+
 ## How Automata Theory Enhances the Application
 
 1. **State Modeling**:  
@@ -144,3 +146,11 @@ The `categorizeBMI` function is called after the BMI is calculated. The returned
      ```
 
 5. Open the application in your browser at `http://localhost:3000`.
+
+---
+
+## Future Enhancements
+
+1. Add more detailed health recommendations based on BMI categories.
+2. Extend the automaton to include additional states for subcategories (e.g., Severe Obesity).
+3. Implement localization for different languages.
