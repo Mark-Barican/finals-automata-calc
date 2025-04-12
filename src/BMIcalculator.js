@@ -42,6 +42,7 @@ const BMICalculator = () => {
   };
 
   return (
+    <div>
     <div className="bmi-container">
       <div className="bmi-sidebar">
         <label>Age (2 - 120)</label>
@@ -97,7 +98,8 @@ const BMICalculator = () => {
           <p className={`bmi-category ${category.toLowerCase()}`}>{category}</p>
         </div>
       </div>
-      <footer className="bmi-footer">BMICALCULATOR-2025</footer>
+    </div>
+      <footer className="bmi-footer">HEALTHY DFA - 2025</footer>
     </div>
   );
 };
