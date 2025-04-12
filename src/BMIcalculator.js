@@ -61,7 +61,7 @@ const BMICalculator = () => {
           value={height}
           onChange={(e) => setHeight(e.target.value)}
         />
-        <label>Weight (in pounds)</label>
+        <label>Weight</label>
         <input
           type="number"
           placeholder="Pounds"
