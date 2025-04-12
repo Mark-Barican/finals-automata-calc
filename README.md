@@ -93,7 +93,13 @@ The BMI categorization process is modeled as a **Deterministic Finite Automaton 
 ### Code Implementation
 
 The automaton is implemented in the `StateMachine.js` file. Below is an example of how the DFA is modeled:
-
 <p align="left">
   <img src="/public/assets/code_imp_1.png" alt="Carbon_imp" width="400" />
+</p>
+
+### Integration with BMI Calculation
+
+The `categorizeBMI` function is called after the BMI is calculated. The returned state determines the category displayed to the user.
+<p align="left">
+  <img src="/public/assets/code_imp_2.png" alt="Carbon_imp_2" width="400" />
 </p>
