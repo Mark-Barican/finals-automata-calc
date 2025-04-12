@@ -86,8 +86,8 @@ The BMI categorization process is modeled as a **Deterministic Finite Automaton 
 | Current State | Input (BMI Range)       | Next State        |
 |---------------|--------------------------|-------------------|
 | `q0`          | BMI < 18.5               | `q1` (Underweight)|
-| `q0`          | 18.5 ≤ BMI < 24.9        | `q2` (Normal)     |
-| `q0`          | 25 ≤ BMI < 29.9          | `q3` (Overweight) |
+| `q0`          | 18.5 ≤ BMI < 25          | `q2` (Normal)     |
+| `q0`          | 25 ≤ BMI < 30            | `q3` (Overweight) |
 | `q0`          | BMI ≥ 30                 | `q4` (Obesity)    |
 
 ### Code Implementation
