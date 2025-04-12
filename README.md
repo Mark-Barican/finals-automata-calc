@@ -1,5 +1,7 @@
-![Project_logo](/public/assets/Healthy_DFA.png)
-![Poster](/public/assets/poster_DFA.png)
+<p align="center">
+  <img src="/public/assets/Healthy_DFA.png" alt="Project_logo" />
+  <img src="/public/assets/poster_DFA.png" alt="Poster" />
+</p>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
