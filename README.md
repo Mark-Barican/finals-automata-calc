@@ -90,3 +90,6 @@ The BMI categorization process is modeled as a **Deterministic Finite Automaton 
 | `q0`          | 25 ≤ BMI < 29.9          | `q3` (Overweight) |
 | `q0`          | BMI ≥ 30                 | `q4` (Obesity)    |
 
+### Code Implementation
+
+The automaton is implemented in the `StateMachine.js` file. Below is an example of how the DFA is modeled:
