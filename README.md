@@ -1,4 +1,19 @@
-![Project_logo](/public/assets/Healthy_DFA.png)
+<p align="center">
+  <img src="/public/assets/Healthy_DFA.png" alt="Project_logo" width="300" />
+  <br>
+  <img src="/public/assets/poster_DFA.png" alt="Poster" width="300" />
+</p>
+
+## Overview
+
+This project is a **BMI Calculator** built using **React.js**. It allows users to input their height, weight, age, and gender to calculate their **Body Mass Index (BMI)**. 
+
+The application categorizes the BMI into different health ranges (e.g., **Normal**, **Underweight**, **Overweight**, **Obesity**) and visualizes the result using a **gauge chart**. Additionally, the project incorporates concepts from **Automata Theory** to model the state transitions of the BMI categorization process.
+
+## Project Structure
+
+The project follows the standard structure of a React application created using **Create React App**. Below is the directory structure:
+
 
 # Getting Started with Create React App
 
