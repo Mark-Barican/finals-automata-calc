@@ -54,3 +54,39 @@ The project follows the standard structure of a React application created using 
 4. **Automata Theory Integration**:
    - The BMI categorization process is modeled as a **Deterministic Finite Automaton (DFA)**.
 
+---
+
+## Automata Theory Implementation
+
+### Automata Design
+
+The BMI categorization process is modeled as a **Deterministic Finite Automaton (DFA)** with the following components:
+
+- **States**:
+  - `q0`: Initial state (no input yet).
+  - `q1`: Underweight state.
+  - `q2`: Normal state.
+  - `q3`: Overweight state.
+  - `q4`: Obesity state.
+
+- **Alphabet**:
+  - BMI values (real numbers).
+
+- **Transitions**:
+  - Based on the BMI value, the automaton transitions to the appropriate state.
+
+- **Start State**:
+  - `q0` (initial state).
+
+- **Accept States**:
+  - `q1`, `q2`, `q3`, `q4` (depending on the BMI category).
+
+### State Transition Table
+
+| Current State | Input (BMI Range)       | Next State        |
+|---------------|--------------------------|-------------------|
+| `q0`          | BMI < 18.5               | `q1` (Underweight)|
+| `q0`          | 18.5 ≤ BMI < 24.9        | `q2` (Normal)     |
+| `q0`          | 25 ≤ BMI < 29.9          | `q3` (Overweight) |
+| `q0`          | BMI ≥ 30                 | `q4` (Obesity)    |
+
