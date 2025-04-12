@@ -1,10 +1,10 @@
+# Project Documentation: BMI Calculator Automata (HEALTHY DFA)
+
 <p align="center">
   <img src="/public/assets/Healthy_DFA.png" alt="Project_logo" width="300" />
   <br>
   <img src="/public/assets/poster_DFA.png" alt="Poster" width="300" />
 </p>
-
-## Overview
 
 This project is a **BMI Calculator** built using **React.js**. It allows users to input their height, weight, age, and gender to calculate their **Body Mass Index (BMI)**. 
 
