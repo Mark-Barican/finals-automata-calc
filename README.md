@@ -1,4 +1,4 @@
-![Project_logo](/assets/Healthy_DFA.png)
+![Project_logo](/public/assets/Healthy_DFA.png)
 
 # Getting Started with Create React App
 
