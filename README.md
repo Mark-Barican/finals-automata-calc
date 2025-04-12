@@ -1,5 +1,5 @@
 ![Project_logo](/public/assets/Healthy_DFA.png)
-
+![Poster](/public/assets/poster_DFA.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
