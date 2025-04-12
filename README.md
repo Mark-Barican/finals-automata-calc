@@ -152,5 +152,5 @@ The `categorizeBMI` function is called after the BMI is calculated. The returned
 ## Future Enhancements
 
 1. Add more detailed health recommendations based on BMI categories.
-2. Extend the automaton to include additional states for subcategories (e.g., Severe Obesity).
+2. Extend the automaton to include additional states for subcategories *(e.g., Severe Obesity)*.
 3. Implement localization for different languages.
