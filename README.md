@@ -67,7 +67,7 @@ The BMI categorization process is modeled as a **Deterministic Finite Automaton 
 | Category           | BMI Range         |
 |--------------------|-------------------|
 | Underweight        | BMI < 18.5        |
-| Normal             | 18.≤ BMI < 25     |
+| Normal             | 18.5 ≤ BMI < 25   |
 | Overweight         | 25 ≤ BMI < 30     |
 | Obesity            | BMI ≥ 30          |
 
