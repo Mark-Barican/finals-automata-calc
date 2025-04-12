@@ -62,6 +62,15 @@ The project follows the standard structure of a React application created using 
 
 The BMI categorization process is modeled as a **Deterministic Finite Automaton (DFA)** with the following components:
 
+- **Categories**:
+  
+| Category           | BMI Range         |
+|--------------------|-------------------|
+| Underweight        | BMI < 18.5        |
+| Normal             | 18.≤ BMI < 25     |
+| Overweight         | 25 ≤ BMI < 30     |
+| Obesity            | BMI ≥ 30          |
+
 - **States**:
   - `q0`: Initial state (no input yet).
   - `q1`: Underweight state.
@@ -83,7 +92,7 @@ The BMI categorization process is modeled as a **Deterministic Finite Automaton 
 
 ### State Transition Table
 
-| Current State | Input (BMI Range)       | Next State        |
+| Current State | Input (BMI Range)        | Next State        |
 |---------------|--------------------------|-------------------|
 | `q0`          | BMI < 18.5               | `q1` (Underweight)|
 | `q0`          | 18.5 ≤ BMI < 25          | `q2` (Normal)     |
