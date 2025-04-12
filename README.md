@@ -103,3 +103,44 @@ The `categorizeBMI` function is called after the BMI is calculated. The returned
 <p align="left">
   <img src="/public/assets/code_imp_2.png" alt="Carbon_imp_2" width="400" />
 </p>
+
+## How Automata Theory Enhances the Application
+
+1. **State Modeling**:  
+   - Automata theory provides a structured way to model the BMI categorization process as a series of states and transitions.
+
+2. **Deterministic Behavior**:  
+   - The DFA ensures that for any given BMI value, the application transitions to exactly one state, making the categorization process predictable and reliable.
+
+3. **Scalability**:  
+   - Additional BMI categories can be added by defining new states and transitions without disrupting the existing logic.
+
+---
+
+## How to Run the Project
+
+1. Clone the repository:
+
+     ```
+     git clone <repository-url>
+     ```
+     
+2. Navigate to the project directory:
+
+     ```
+     cd finals-automata-calc
+     ```
+     
+3. Install dependencies:
+
+     ```
+     npm install
+     ```
+     
+4. Start the development server:
+
+     ```
+     npm start
+     ```
+
+5. Open the application in your browser at `http://localhost:3000`.
