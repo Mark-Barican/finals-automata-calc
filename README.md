@@ -10,10 +10,15 @@ This project is a **BMI Calculator** built using **React.js**. It allows users t
 
 The application categorizes the BMI into different health ranges (e.g., **Normal**, **Underweight**, **Overweight**, **Obesity**) and visualizes the result using a **gauge chart**. Additionally, the project incorporates concepts from **Automata Theory** to model the state transitions of the BMI categorization process.
 
+---
+
 ## Project Structure
 
 The project follows the standard structure of a React application created using **Create React App**. Below is the directory structure:
 
+<p align="center">
+  <img src="/public/assets/carbon (2).png" alt="Carbon" width="300" />
+</p>
 
 # Getting Started with Create React App
 
